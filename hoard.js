@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
             el.className = 'hoard-card';
             el.innerHTML = `
                 <div class="card-image-wrap">
-                    ${card.image ? `<img src="${card.image}" alt="${card.name}">` : `<div class="card-placeholder">🃏</div>`}
+                    ${card.image ? `<img src="${card.image}" alt="${card.name}">` : `<div class="card-placeholder">◆</div>`}
                 </div>
                 <div class="card-body">
                     <div class="card-name">${card.name}</div>
